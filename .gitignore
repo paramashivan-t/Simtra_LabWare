@@ -1,8 +1,21 @@
+# Dependencies
 node_modules/
-test-results/
 playwright-report/
 playwright/.auth/
+
+# Playwright outputs
+test-results/
+test-recording/
+playwright-report/
+
+# Environment files
+.env
 .env
 .env.*
 !.env.example
+
 Resources/config.properties
+
+# Package files
+package.json
+package-lock.json
